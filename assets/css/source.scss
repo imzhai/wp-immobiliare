@@ -10,10 +10,14 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 $color: rgb(121, 76, 76);
-@mixin ploup { background-color: aquamarine;}
 
+@mixin ploup { background-color: blanchedalmond;}
+@mixin noir{background-color: black;}
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 body {background-color: $color;}
 
 h1 {@include ploup();}
+
+nav {@include noir();}
+
