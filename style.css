@@ -7036,5 +7036,43 @@ body {
 h1 {
   background-color: blanchedalmond; }
 
-nav {
-  background-color: black; }
+h2 {
+  background-color: #cea4a4; }
+
+.col-3 {
+  transition: 1.5s; }
+  .col-3:hover {
+    transform: scale(1.2); }
+
+.link {
+  text-decoration: none;
+  color: black;
+  transition: 1.5s; }
+  .link:hover {
+    text-decoration: none;
+    color: blanchedalmond;
+    transform: perspective(600px) translateZ(100px); }
+
+.linkgrey {
+  text-decoration: none;
+  color: black;
+  transition: 1.5s; }
+  .linkgrey:hover {
+    text-decoration: none;
+    color: #c5c5c4;
+    transform: perspective(600px) translateZ(100px); }
+
+.article-image {
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.a {
+  text-decoration: none;
+  color: black;
+  transition: 1.5s; }
+  .a:hover {
+    text-decoration: none;
+    color: #c5c5c4;
+    transform: perspective(600px) translateZ(100px); }

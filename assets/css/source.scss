@@ -12,12 +12,70 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 $color: rgb(121, 76, 76);
 
 @mixin ploup { background-color: blanchedalmond;}
+@mixin plouph2 { background-color: rgb(206, 164, 164);}
 @mixin noir{background-color: black;}
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 body {background-color: $color;}
 
 h1 {@include ploup();}
+h2 {@include plouph2();}
 
-nav {@include noir();}
+.col-3{ 
+   
+    transition: 1.5s;
+
+    &:hover{
+    transform: scale(1.2);
+    }
+}
+
+.link{
+    text-decoration: none;
+    color:black; 
+    transition: 1.5s;
+
+    &:hover{
+        text-decoration: none;
+        color: blanchedalmond;
+        transform: perspective(600px) translateZ(100px);
+    }
+}
+
+.linkgrey{
+    text-decoration: none;
+    color:black; 
+    transition: 1.5s;
+
+    &:hover{
+        text-decoration: none;
+        color: rgb(197, 197, 196);
+        transform: perspective(600px) translateZ(100px);
+    }
+}
+
+
+.article-image{
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+
+.a{
+    text-decoration: none;
+    color:black; 
+    transition: 1.5s;
+
+    &:hover{
+        text-decoration: none;
+        color: rgb(197, 197, 196);
+        transform: perspective(600px) translateZ(100px);
+    }
+}
+
+
+
+
 
