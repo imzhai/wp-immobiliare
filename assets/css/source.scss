@@ -21,7 +21,7 @@ body {background-color: $color;}
 h1 {@include ploup();}
 h2 {@include plouph2();}
 
-.col-3{ 
+.col-4{ 
    
     transition: 1.5s;
 
@@ -63,7 +63,7 @@ h2 {@include plouph2();}
 }
 
 
-.a{
+a:not(.terms){
     text-decoration: none;
     color:black; 
     transition: 1.5s;
@@ -76,6 +76,22 @@ h2 {@include plouph2();}
 }
 
 
+
+.terms{
+    text-decoration: none;
+    color:rgb(23, 163, 182); 
+    transition: 1.5s;
+
+    &:hover{
+        text-decoration: none;
+        color: rgb(197, 197, 196);
+        transform: perspective(600px) translateZ(100px);
+    }
+}
+
+.row{
+    display: flex;
+}
 
 
 

@@ -7039,9 +7039,9 @@ h1 {
 h2 {
   background-color: #cea4a4; }
 
-.col-3 {
+.col-4 {
   transition: 1.5s; }
-  .col-3:hover {
+  .col-4:hover {
     transform: scale(1.2); }
 
 .link {
@@ -7068,11 +7068,23 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.a {
+a:not(.terms) {
   text-decoration: none;
   color: black;
   transition: 1.5s; }
-  .a:hover {
+  a:not(.terms):hover {
     text-decoration: none;
     color: #c5c5c4;
     transform: perspective(600px) translateZ(100px); }
+
+.terms {
+  text-decoration: none;
+  color: #17a3b6;
+  transition: 1.5s; }
+  .terms:hover {
+    text-decoration: none;
+    color: #c5c5c4;
+    transform: perspective(600px) translateZ(100px); }
+
+.row {
+  display: flex; }
